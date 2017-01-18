@@ -30,10 +30,7 @@ body {
     font-family: 'Raleway', sans-serif;
     left: 25px;
     top: 23px;
-}
-
-.about-headline {
-    animation: 1s about-headline;
+    animation: 2s about-headline;
     margin-top: 1%;
 }
 
@@ -50,7 +47,7 @@ body {
 
 
 .aboutlink {
-    position: absolute;
+    position: fixed;
     text-align: center;
     border-radius: 10px;
     font-size: 96%;
@@ -82,17 +79,23 @@ hr {
 
 
 .description {
-    text-align: center;
-    margin: 200px;
+    position: fixed;
+    top: 33%;
+    left: 34%;
     font-family: 'Raleway', sans-serif;
     font-size: 225%;
 }
 
 
 .links {
-    position: absolute;
-    left: 38%;
+    position: fixed;
+    left: 36%;
     top: 47%;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
 }
 
 
@@ -137,7 +140,7 @@ hr {
     display: flex;
     width: 1425px;
     height: 75px;
-    animation: 3s about-content;
+    animation: 4s about-content;
     margin-top: 3%;
     font-size: 145%;
 }
