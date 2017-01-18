@@ -30,9 +30,6 @@ body {
     font-family: 'Raleway', sans-serif;
     left: 25px;
     top: 23px;
-}
-
-.about-headline {
     animation: 1s about-headline;
     margin-top: 1%;
 }
@@ -137,7 +134,7 @@ hr {
     display: flex;
     width: 1425px;
     height: 75px;
-    animation: 3s about-content;
+    animation: 2s about-content;
     margin-top: 3%;
     font-size: 145%;
 }
