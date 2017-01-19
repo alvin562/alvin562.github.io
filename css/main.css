@@ -82,7 +82,7 @@ hr {
 .description {
     position: absolute;
     top: 33%;
-    left: 34%;
+    left: 32%;
     font-family: 'Raleway', sans-serif;
     font-size: 225%;
 }
@@ -90,7 +90,7 @@ hr {
 
 .links {
     position: absolute;
-    left: 36%;
+    left: 34%;
     top: 47%;
     list-style: none;
 }
@@ -145,6 +145,7 @@ li {
     margin-top: 3%;
     font-size: 145%;
 }
+
 
 .profile-pic {
     position: absolute;
