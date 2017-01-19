@@ -151,8 +151,8 @@ li {
     position: absolute;
     width: 390px;
     height: 390px;
-    top: 110px;
-    left: 200px;
+    top: 90px;
+    left: 175px;
 }
 
 
@@ -183,6 +183,13 @@ li {
     height: 21px;
     top: 60%;
     left: 85%;
+}
+
+.pic-description {
+    position: absolute;
+    font-size: 75%;
+    top: 625%;
+    right: 67%;
 }
 
 
