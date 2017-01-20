@@ -185,6 +185,12 @@ li {
     left: 85%;
 }
 
+
+.home-link:hover {
+    opacity: 0.7;
+}
+
+
 .pic-description {
     position: absolute;
     font-size: 75%;
