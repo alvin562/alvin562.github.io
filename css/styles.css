@@ -7,16 +7,13 @@ h1{
   display: inline-block;
 }
 
-
 a{
   color: black;
 }
 
-
 .header {
   margin-top: 1%;
 }
-
 
 .title {
   letter-spacing: 7px;
@@ -24,20 +21,43 @@ a{
   margin-left: 2%;
 }
 
-
-.page-link {
+.bordered {
   border: 1px solid #ff3333;
-  border-radius: 5px;
-  padding: 0.4%;
-  padding-left: 1.1%;
-  padding-right: 1.1%;
-  font-size: 120%;
-  margin-right: 4%;
-  margin-top: 1.1%;
-  font-color: black;
-  float: right;
+  border-radius: 5.5px;
 }
 
+.right-most-button {
+  margin-right: 4%;
+  padding-right: 1.1%;
+}
+
+.buttons-on-right {
+  margin-right: 50%;
+}
+
+.page-link {
+  padding: 20%;
+  font-size: 120%;
+  font-color: black;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+ul.page-links {
+  display: inline;
+}
+
+ul.home-page-links {
+  margin-left: 48%;
+}
+
+ul.about-me-page-links {
+  margin-left: 63.5%;
+}
+
+ul.page-links > li {
+  padding: 15px;
+}
 
 hr {
   margin-top: 0.5%;
