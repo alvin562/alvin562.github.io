@@ -2,7 +2,6 @@
   font-family: 'Raleway', sans-serif;
 }
 
-
 h1{
   display: inline-block;
 }
@@ -55,6 +54,10 @@ ul.about-me-page-links {
   margin-left: 63.5%;
 }
 
+ul.skills-page-links {
+  margin-left: 69%;
+}
+
 ul.page-links > li {
   padding: 15px;
 }
@@ -63,18 +66,15 @@ hr {
   margin-top: 0.5%;
 }
 
-
 #home-description {
   font-size: 275%;
   margin-top: 14%;
 }
 
-
 .about-content {
   margin-top: 10%;
   animation: 1.5s about-content;
 }
-
 
 @keyframes about-content {
   from {
@@ -86,35 +86,29 @@ hr {
   }
 }
 
-
 #about-description {
   font-size: 160%;
   width: 60%;
 }
-
 
 #profile-pic {
   width: 50%;
   height: 50%;
 }
 
-
 #pic-description {
   font-style: italic;
   margin-right: 5%;
 }
 
-
 li {
   display: inline-block;
 }
-
 
 .links {
   list-style: none;
   margin-top: 4%;
 }
-
 
 img {
   width: 60px;
@@ -122,11 +116,9 @@ img {
   margin-right: 25px;
 }
 
-
 .links > li:last-child  > a > img {
   margin-right: 0px;
 }
-
 
 .clickable:hover {
   opacity: 0.7;
