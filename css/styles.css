@@ -16,12 +16,12 @@ a{
 
 .title {
   letter-spacing: 7px;
-  font-size: 200%;
-  margin-left: 2%;
+  font-size: 150%;
+  margin-left: 0.8%;
 }
 
 .bordered {
-  border: 1px solid #ff3333;
+  border: 1px solid #ff3333 !important;
   border-radius: 5.5px;
 }
 
@@ -35,11 +35,7 @@ a{
 }
 
 .page-link {
-  padding: 20%;
-  font-size: 120%;
-  font-color: black;
-  padding-left: 35%;
-  padding-right: 35%;
+  font-size: 110%;
 }
 
 ul.page-links {
@@ -48,6 +44,10 @@ ul.page-links {
 
 ul.home-page-links {
   margin-left: 48%;
+}
+
+.navbar {
+  padding-bottom: 0px;
 }
 
 ul.about-me-page-links {
@@ -59,11 +59,35 @@ ul.skills-page-links {
 }
 
 ul.page-links > li {
-  padding: 15px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 11px;
+  padding-top: 11px;
+}
+
+@media (min-width: 600px) {
+  .nav-item-bordered {
+  display: inline;
+ }
+}
+
+.nav-item {
+  border: transparent;
+}
+
+li.nav-item:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+}
+
+li.nav-item a:hover {
+  text-decoration: none;
 }
 
 hr {
-  margin-top: 0.5%;
+  margin-top: 0.4%;
 }
 
 #home-description {
@@ -96,13 +120,18 @@ hr {
   height: 50%;
 }
 
+#python-logo {
+  width: 50%;
+  height: 50%;
+}
+
 #pic-description {
   font-style: italic;
   margin-right: 5%;
 }
 
 li {
-  display: inline-block;
+  display: inline;
 }
 
 .links {
@@ -121,7 +150,7 @@ img {
 }
 
 .clickable:hover {
-  opacity: 0.7;
-  cursor: pointer;
-  text-decoration: none;
+  opacity: 0.7 !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
 }
