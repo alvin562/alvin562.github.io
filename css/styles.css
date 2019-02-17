@@ -80,6 +80,12 @@ ul.page-links > li {
     margin-left: 0.8%;
   }
 
+  #about-description {
+    font-size: 160%;
+    width: 75%;
+    margin-left: 15%;
+  }
+
   .lg-view{
      display:none;
   }
