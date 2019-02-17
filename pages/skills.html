@@ -29,12 +29,24 @@
     <div class="container-fluid raleway-font">
       <div class="row header">
         <div class="col-md-12">
-          <h1 class="title">Skills</h1>
-          <ul class="page-links skills-page-links">
-            <li><a href="skills.html" class="bordered page-link clickable">Skills</a></li>
-            <li><a href="../index.html" class="page-link clickable">Home</a></li>
-            <li><a href="aboutme.html" class="page-link clickable">About</a></li>
-          </ul>
+
+          <nav class="navbar navbar-expand-sm navbar-light">
+            <h3 class="title navbar-brand">Skills</h3>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pagelinks" aria-controls="pagelinks" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="pagelinks" class="collapse navbar-collapse">
+              <ul class="page-links home-page-links ml-auto">
+                <li class="page-link nav-item nav-item-bordered"><a href="">Home</li>
+                <li class="page-link nav-item nav-item-bordered"><a href="pages/aboutme.html">About</a></li>
+                <li class="page-link nav-item nav-item-bordered bordered"><a href="pages/skills.html">Skills</a></li>
+              </ul>
+            </div>
+
+          </nav>
+
         </div>
       </div>
       <hr>
