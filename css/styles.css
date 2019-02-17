@@ -2,10 +2,6 @@
   font-family: 'Raleway', sans-serif;
 }
 
-h1{
-  display: inline-block;
-}
-
 a{
   color: black;
 }
@@ -65,14 +61,40 @@ ul.page-links > li {
   padding-top: 11px;
 }
 
+
 @media (min-width: 700px) {
   .nav-item-bordered {
   display: inline;
  }
 }
 
+/* hide large view and activate small view when screen width <= 500px */
+@media screen and (max-width: 500px) {
+  .sm-view {
+     display:inline !important;
+  }
+
+  .title {
+    letter-spacing: 6px;
+    font-size: 150%;
+    margin-left: 0.8%;
+  }
+
+  .lg-view{
+     display:none;
+  }
+}
+
+.sm-view {
+  display:none;
+}
+
 .nav-item {
   border: transparent;
+}
+
+h3 {
+  text-align: left;
 }
 
 li.nav-item:hover {
