@@ -124,8 +124,13 @@ hr {
 }
 
 .about-content {
-  margin-top: 10%;
+  margin-top: 7%;
   animation: 1.5s about-content;
+}
+
+.skill-logos {
+  width: 10%;
+  height: 10%;
 }
 
 @keyframes about-content {
@@ -134,7 +139,7 @@ hr {
   }
 
   to {
-    margin-top: 10%;
+    margin-top: 7%;
   }
 }
 
@@ -144,11 +149,6 @@ hr {
 }
 
 #profile-pic {
-  width: 50%;
-  height: 50%;
-}
-
-#python-logo {
   width: 50%;
   height: 50%;
 }
